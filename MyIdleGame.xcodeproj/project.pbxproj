@@ -55,8 +55,8 @@
 		B572F3A0297C85C500D800A3 /* MyIdleGame */ = {
 			isa = PBXGroup;
 			children = (
+				B572F3B5297C8A5000D800A3 /* Views */,
 				B572F3A1297C85C500D800A3 /* MyIdleGameApp.swift */,
-				B572F3A3297C85C500D800A3 /* GameView.swift */,
 				B572F3AF297C87A900D800A3 /* GameController.swift */,
 				B572F3B1297C87FE00D800A3 /* GameData.swift */,
 				B572F3A5297C85C600D800A3 /* Assets.xcassets */,
@@ -71,6 +71,14 @@
 				B572F3A8297C85C600D800A3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B572F3B5297C8A5000D800A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B572F3A3297C85C500D800A3 /* GameView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
