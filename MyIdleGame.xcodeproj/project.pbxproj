@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		B572F3A2297C85C500D800A3 /* MyIdleGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572F3A1297C85C500D800A3 /* MyIdleGameApp.swift */; };
-		B572F3A4297C85C500D800A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572F3A3297C85C500D800A3 /* ContentView.swift */; };
+		B572F3A4297C85C500D800A3 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572F3A3297C85C500D800A3 /* GameView.swift */; };
 		B572F3A6297C85C600D800A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B572F3A5297C85C600D800A3 /* Assets.xcassets */; };
 		B572F3A9297C85C600D800A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B572F3A8297C85C600D800A3 /* Preview Assets.xcassets */; };
+		B572F3B0297C87A900D800A3 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572F3AF297C87A900D800A3 /* GameController.swift */; };
+		B572F3B2297C87FE00D800A3 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572F3B1297C87FE00D800A3 /* GameData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B572F39E297C85C500D800A3 /* MyIdleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyIdleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B572F3A1297C85C500D800A3 /* MyIdleGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIdleGameApp.swift; sourceTree = "<group>"; };
-		B572F3A3297C85C500D800A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B572F3A3297C85C500D800A3 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		B572F3A5297C85C600D800A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B572F3A8297C85C600D800A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B572F3AF297C87A900D800A3 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		B572F3B1297C87FE00D800A3 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				B572F3A1297C85C500D800A3 /* MyIdleGameApp.swift */,
-				B572F3A3297C85C500D800A3 /* ContentView.swift */,
+				B572F3A3297C85C500D800A3 /* GameView.swift */,
+				B572F3AF297C87A900D800A3 /* GameController.swift */,
+				B572F3B1297C87FE00D800A3 /* GameData.swift */,
 				B572F3A5297C85C600D800A3 /* Assets.xcassets */,
 				B572F3A7297C85C600D800A3 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B572F3A4297C85C500D800A3 /* ContentView.swift in Sources */,
+				B572F3A4297C85C500D800A3 /* GameView.swift in Sources */,
+				B572F3B2297C87FE00D800A3 /* GameData.swift in Sources */,
+				B572F3B0297C87A900D800A3 /* GameController.swift in Sources */,
 				B572F3A2297C85C500D800A3 /* MyIdleGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
